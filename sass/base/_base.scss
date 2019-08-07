@@ -1,0 +1,14 @@
+*, *::after, *::before {
+  margin: 0;
+  padd: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines 1rem as 10px assuming browser default font-size 16px
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
